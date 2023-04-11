@@ -2,22 +2,21 @@
 
 ## Overview
 
+## My role in this project
 
-## Why did I make this project? Why did I use WordPress?
-
+## Why did we make this project? Why did we use WordPress?
 
 ## Project Status
 
 ## Code Examples
 
-I wanted to highlight my sliding projects feature on the homepage. I am really happy with how it turned out!
 
 ```
 
 
 ```
 
-## Challenges I faced while making this
+## Challenges faced while making this
 
 
 ## Useful Links
