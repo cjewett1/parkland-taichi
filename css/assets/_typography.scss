@@ -1,0 +1,85 @@
+@use 'colors' as *;
+@use 'mixins';
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;800&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+
+//Headings
+
+h1, h3, h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+h1{
+    font-size: clamp(2.5rem, 4vw, 3.5rem);
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: clamp(2.8rem, 4vw, 4.4rem);
+    text-align: center;
+}
+
+h3{
+    font-size: 2.8rem;
+}
+
+h4{
+    font-size: clamp(1.75rem, 4vw, 2.25rem);
+}
+
+//Body text
+
+p, ul, li, a, input, button{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.8rem;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.about-us-section {
+    h2 {
+        color: $matcha-green;
+        text-transform: uppercase;
+        line-height: 1;
+        margin-bottom: 18px;
+        text-align: left;
+        width: 35ch;
+    }
+}
+
+.registration-heading h1 {
+    text-align: center;
+    color: $matcha-green;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-top: 5rem;
+    margin-bottom: 18px;
+    width: 15ch;
+
+}
+
+.taichi-quote-container p {
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+}
+
+footer a, footer p{
+    font-weight: 700;
+}
+

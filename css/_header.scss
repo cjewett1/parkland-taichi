@@ -1,0 +1,186 @@
+@use 'assets/colors' as *;
+@use 'assets/mixins';
+
+.site-header {
+    background: $matcha-green;
+    border-bottom: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    padding: 1rem;
+}
+
+.sub-menu {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    background-color: $matcha-green;
+}
+
+@media (min-width: 1000px) {
+    .sub-menu li {
+        border-bottom: 1px solid black;
+    }
+}
+
+header svg {
+    height: 8rem;
+}
+
+.main-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 128rem;
+}
+
+
+@media (max-width: 1000px) {
+    .main-navigation {
+        display: block;
+        a {
+            border-bottom: 1px solid black;
+            padding-left: 1rem;
+            padding-top: 2.5rem;
+            height: 8rem;
+            background: $matcha-green;
+        }
+    }
+         .fa::before {
+             margin-right: .5rem;
+             color: black;
+            margin-top: 2.5rem;
+         }
+    
+         // .menu-item-23 {
+         //     white-space: nowrap;
+         // }
+    
+         li#menu-item-55 {
+             white-space: nowrap;
+         }
+    
+         li#menu-item-23 {
+             flex-basis: 15rem;
+             white-space: nowrap;
+             width: 100%;
+             margin-right: 2rem;
+         }
+
+    .main-navigation.toggled {
+        position: relative;
+        z-index: 10;
+
+        .search-input-form {
+            position: absolute;
+            display: block;
+            top: 36.2rem;
+        }
+
+        ul#primary-menu {
+            border-bottom: 1px solid black;
+            padding-bottom: 8rem;
+        }
+    }
+    .search-input-form {
+        display: none;
+    }
+
+    .weather-and-button-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navigation-menu {
+        position: relative;
+        background: $matcha-green;
+
+    }
+    .menu-menu-1-container {
+        position: absolute;
+        background: $matcha-green;
+        left: -1rem;
+        top: 1rem;
+        width: 100vw;
+    }
+    
+    .weather-widget {
+        margin: 0 auto;
+    }
+
+    .menu-item-23 {
+        margin-top: 1rem;
+
+    }
+
+    .sub-menu li {
+        margin-top: 1rem;
+    }
+
+}
+
+.top-of-page-banner-text.clicked {
+    z-index: -1;
+}
+
+
+.search-input-form {
+    position: relative;
+}
+
+.search button {
+    position: absolute;
+}
+
+.search button svg {
+    position: absolute;
+    top: 0.4rem;
+    right: 2rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+.navigation-menu {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.menu-toggle svg {
+    height: 3.5rem;
+}
+
+ .fa::before {
+    float: right;
+    margin-right: .5rem;
+    color: black;
+ }
+
+// .menu-item-23 {
+//     white-space: nowrap;
+// }
+
+li#menu-item-55 {
+    white-space: nowrap;
+}
+
+li#menu-item-23 {
+    flex-basis: 15rem;
+    white-space: nowrap;
+    width: 100%;
+    margin-right: 2rem;
+}
+
+@media (min-width: 1000px){
+                .fa::before {
+                        float: left;
+                        margin-right: .5rem;
+                        color: black;
+                    }
+}
+
+@media screen and (min-width: 1000px) {
+.menu-toggle {
+    display: none;
+}
+
+}

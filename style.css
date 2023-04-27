@@ -1,0 +1,551 @@
+html {
+  line-height: 1.5;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+/* Forms
+--------------------------------------------- */
+button,
+input[type=button],
+input[type=reset],
+input[type=submit] {
+  border: 1px solid;
+  border-color: #ccc #ccc #bbb;
+  border-radius: 3px;
+  background: #e6e6e6;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 1;
+  padding: 0.6em 1em 0.4em;
+}
+
+button:hover,
+input[type=button]:hover,
+input[type=reset]:hover,
+input[type=submit]:hover {
+  border-color: #ccc #bbb #aaa;
+}
+
+button:active,
+button:focus,
+input[type=button]:active,
+input[type=button]:focus,
+input[type=reset]:active,
+input[type=reset]:focus,
+input[type=submit]:active,
+input[type=submit]:focus {
+  border-color: #aaa #bbb #bbb;
+}
+
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password],
+input[type=search],
+input[type=number],
+input[type=tel],
+input[type=range],
+input[type=date],
+input[type=month],
+input[type=week],
+input[type=time],
+input[type=datetime],
+input[type=datetime-local],
+input[type=color],
+textarea {
+  color: #666;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
+input[type=number]:focus,
+input[type=tel]:focus,
+input[type=range]:focus,
+input[type=date]:focus,
+input[type=month]:focus,
+input[type=week]:focus,
+input[type=time]:focus,
+input[type=datetime]:focus,
+input[type=datetime-local]:focus,
+input[type=color]:focus,
+textarea:focus {
+  color: #111;
+}
+
+/* Typography
+--------------------------------------------- */
+html {
+  font-family: monospace;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+header {
+  background-color: #192E47;
+}
+
+footer {
+  background-color: #192E47;
+  color: #FFE5D4;
+  width: 100%;
+}
+
+/*
+Theme Name: parkland-theme
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Parkland Tai Chi Website
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: parkland-theme
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+	- Elements
+	- Links
+	- Layouts
+	- Components
+	- Navigation
+	- Posts and pages
+	- Comments
+	- Widgets
+	- Media
+	- Captions
+	- Galleries
+	- Plugins
+	- Utilities
+	- Accessibility
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+body {
+  background: #fff;
+}
+
+hr {
+  background-color: #ccc;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.5em;
+}
+
+ul,
+ol {
+  margin: 0 0 1.5em 3em;
+}
+
+ul {
+  list-style: disc;
+}
+
+ol {
+  list-style: decimal;
+}
+
+li > ul,
+li > ol {
+  margin-bottom: 0;
+  margin-left: 1.5em;
+}
+
+dt {
+  font-weight: 700;
+}
+
+dd {
+  margin: 0 1.5em 1.5em;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+figure {
+  margin: 1em 0;
+}
+
+table {
+  margin: 0 0 1.5em;
+  width: 100%;
+}
+
+/*--------------------------------------------------------------
+# Links
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Layouts
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+.main-navigation {
+  display: block;
+  width: 100%;
+}
+
+.main-navigation ul {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.main-navigation ul ul {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  float: left;
+  position: absolute;
+  top: 100%;
+  left: -999em;
+  z-index: 99999;
+}
+
+.main-navigation ul ul ul {
+  left: -999em;
+  top: 0;
+}
+
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
+  display: block;
+  left: auto;
+}
+
+.main-navigation ul ul a {
+  width: 200px;
+}
+
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+  left: auto;
+}
+
+.main-navigation li {
+  position: relative;
+}
+
+.main-navigation a {
+  display: block;
+  text-decoration: none;
+}
+
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+  display: block;
+}
+
+@media screen and (min-width: 37.5em) {
+  .menu-toggle {
+    display: none;
+  }
+  .main-navigation ul {
+    display: flex;
+  }
+}
+.site-main .comment-navigation,
+.site-main .posts-navigation,
+.site-main .post-navigation {
+  margin: 0 0 1.5em;
+}
+
+.comment-navigation .nav-links,
+.posts-navigation .nav-links,
+.post-navigation .nav-links {
+  display: flex;
+}
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+  flex: 1 0 50%;
+}
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+  text-align: end;
+  flex: 1 0 50%;
+}
+
+/*--------------------------------------------------------------
+# Posts and Pages
+--------------------------------------------------------------*/
+.sticky {
+  display: block;
+}
+
+.post,
+.page {
+  margin: 0 0 1.5em;
+}
+
+.updated:not(.published) {
+  display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+  margin: 1.5em 0 0;
+}
+
+.page-links {
+  clear: both;
+  margin: 0 0 1.5em;
+}
+
+/*--------------------------------------------------------------
+# Comments
+--------------------------------------------------------------*/
+.comment-content a {
+  word-wrap: break-word;
+}
+
+.bypostauthor {
+  display: block;
+}
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+.widget {
+  margin: 0 0 1.5em;
+}
+
+.widget select {
+  max-width: 100%;
+}
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+/* Make sure logo link wraps around logo image. */
+.custom-logo-link {
+  display: inline-block;
+}
+
+/*--------------------------------------------------------------
+# Captions
+--------------------------------------------------------------*/
+.wp-caption {
+  margin-bottom: 1.5em;
+  max-width: 100%;
+}
+
+.wp-caption img[class*=wp-image-] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+  margin: 0.8075em 0;
+}
+
+.wp-caption-text {
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+# Galleries
+--------------------------------------------------------------*/
+.gallery {
+  margin-bottom: 1.5em;
+  display: grid;
+  grid-gap: 1.5em;
+}
+
+.gallery-item {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.gallery-columns-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.gallery-columns-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gallery-columns-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.gallery-columns-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.gallery-columns-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.gallery-columns-7 {
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.gallery-columns-8 {
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.gallery-columns-9 {
+  grid-template-columns: repeat(9, 1fr);
+}
+
+.gallery-caption {
+  display: block;
+}
+
+/*--------------------------------------------------------------
+# Plugins
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Utilities
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+}
+
+/*# sourceMappingURL=style.css.map */
