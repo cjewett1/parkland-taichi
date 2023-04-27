@@ -1,4 +1,4 @@
-# Parkland Tai Chi - Site still in development, this will get updated as we continue to finalize the site!
+# Parkland Tai Chi
 
 ## Overview
 This was our NAIT Web Design and Development capstone project. We were tasked with creating a website from the ground up for a non-profit Tai Chi organization. We were responsible for the prototyping and testing of the website, all graphic design elements (logo and icons) and the development of the website, using WordPress. 
