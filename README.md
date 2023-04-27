@@ -4,7 +4,13 @@
 This was our NAIT Web Design and Development capstone project. We were tasked with creating a website from the ground up for a non-profit Tai Chi organization. We were responsible for the prototyping and testing of the website, all graphic design elements (logo and icons) and the development of the website, using WordPress. 
 
 ## My role in this project
-I was given the role of communication lead, which included the responsibilities such as, communicating with the client on a weekly basis, asking any questions, answering any question the client had and keeping them up to date with the development of the website. 
+I was given the role of communication lead, which included the responsibilities such as, communicating with the client on a weekly basis, asking any questions, answering any question the client had and keeping them up to date with the development of the website. In addition to this I did the majority of the site development, migration and functionality.
+
+I also designed the logo for Parkland Tai Chi, It's a more modern take and a bit of a refresh of the logo that they had before. I also created an extensive user guide for them so that they have the ability to update their content without the help of a developer.
+
+Parkland's Logo. 
+
+![Parkland Tai Chi Logo](https://user-images.githubusercontent.com/83998647/234753622-942666a3-94a9-42b7-8902-9430ffd0651a.jpg)
 
 ## Why did we use WordPress?
 After extensive research and careful consideration, we decided that WordPress was the appropriate choice in which to develop Parklands website. We looked into using React and other CMS’s but the benefits that WordPress provided outweighed any negatives that it may have. They wanted to refresh their own content periodically and wanted stability now and, in the future, WordPress provides that. Since they are a non-for-profit organization, a low maintenance site is something that they required. 
