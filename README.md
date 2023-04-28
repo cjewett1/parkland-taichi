@@ -24,11 +24,12 @@ One of the challenges we faced during the design process was making decisions re
 ## Useful Links
 Check out <a href="https://parklandtaichi.com" target="_blank">The Site!</a>
 
-## Contact
-Feel free to [email me](mailto:clintondgorda@gmail.com) if you have any questions or comments about my project.
+## Connect with me
+[![Phone](https://img.shields.io/badge/Phone-%23333.svg?&style=for-the-badge&logo=telephone&logoColor=white)](tel:+7802424053)
+[![Email](https://img.shields.io/badge/Email-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white)](mailto:clintondgorda@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/clintonjewett/)
+[![Discord](https://img.shields.io/badge/Discord-clint(booma)%234826-%237289DA?logo=discord&logoColor=white&style=for-the-badge)](https://discord.com/users/clint(booma)#4826)
 
-You can find me on <a href="https://www.linkedin.com/in/clintonjewett/" target="_blank">LinkedIn</a>
+[![Portfolio](https://img.shields.io/badge/Portfolio-Check%20out%20my%20website-blue?style=for-the-badge&logo=portfolio&logoColor=white)](https://www.clinton-gorda.com)
 
-You can also find me on Slack as <a href="https://clintssandbox.slack.com/team/U051WJSE588" target="_blank">@clintonwebdev</a>
-
-I'm always on Discord in some capacity, this probably the fastest way to reach me. Heres my username <a href="https://discordapp.com/users/123456789012345678" target="_blank">clint(booma)#4826</a>
+[![Resume](https://img.shields.io/badge/Resume-View%20my%20resume-orange?style=for-the-badge&logo=Resume-Icons&logoColor=white)](https://drive.google.com/file/d/1fO-yFbp0v9N1611nk4rxw1zoYp_w1jmg/view?usp=sharing)
